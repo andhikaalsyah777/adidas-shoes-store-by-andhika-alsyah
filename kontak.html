@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Pemesanan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="banner">
+    <h1>Form Pemesanan</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="produk.html">Produk</a>
+    <a href="about.html">Tentang</a>
+    <a href="kontak.html">Kontak</a>
+</nav>
+
+    <form onsubmit="pesanSukses(event)">
+        <label>Nama:</label>
+        <input type="text" required>
+
+        <label>Email:</label>
+        <input type="email" required>
+
+        <label>Pilih Produk:</label>
+        <select>
+            <option>Adidas Ultraboost</option>
+            <option>Adidas Superstar</option>
+            <option>Adidas NMD</option>
+        </select>
+
+        <label>Jumlah:</label>
+        <input type="number" min="1">
+
+        <button type="submit">Pesan Sekarang</button>
+    </form>
+
+
+<footer>
+    <p>&copy; Andhika Alsyah | 251011700163 | 01SIFP003</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
+
+</body>
+</html>
